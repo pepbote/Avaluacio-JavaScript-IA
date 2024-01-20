@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>LadybugPlay</title>
+</head>
+<body>
+    <div id="title">
+        <h1>LadybugPlay</h1>
+    </div>
+    <div id="cartes-container">
+        <div id="cartes1">
+            <p>Equip 1</p>
+            <div class="cartes"></div>
+        </div>
+        <div id="cartes2">
+            <p>Equip 2</p>
+            <div class="cartes"></div>
+        </div>
+    </div>
+    <div id="resultat">
+        <button id="combat" class="button">COMBAT</button>
+        <div id="guanyador"></div>
+        <button id="veureResum" class="button hidden">VEURE RESUM</button>
+        <div id="resum" class="hidden"></div>
+        <button id="eliminades" class="button hidden">VEURE ELIMINADES</button>
+        <div id="cartesEliminades" class="hidden"></div>
+    </div>
+    <template id="template">
+        <article class="carta"> 
+            <p class="nom"></p>
+            <img class="img">
+            <p class="atac"><div class="valorAtac"></div></p>
+            <p class="defensa"><div class="valorDefensa"></div></p>
+            <p class="velocitat"><div class="valorVelocitat"></div></p>
+            <p class="salut"><div class="valorSalut"></div></p>
+        </article>
+    </template>
+</body>
+</html>

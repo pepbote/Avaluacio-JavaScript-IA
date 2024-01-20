@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(162, 0, 165);
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    background-image: url("img/header.jpg");
+    height: 400px;
+    margin: 0;
+    padding: 0;
+
+    h1 {
+        margin: 10px;
+        padding: 0;
+        text-shadow: 0 0 15px white;
+    }
+}
+
+#cartes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cartes1,
+#cartes2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 61, 165);
+    max-width: 1300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carta:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    .img {
+        filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+        transition: filter 0.3s ease-in-out
+    }
+}
+
+.carta {
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 61, 165);
+    margin: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.img {
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.nom {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.seleccionada {
+    box-shadow: 0 0 15px rgb(162, 0, 165);
+    transform: scale(1.1);
+    .img {
+        filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+        transition: filter 0.3s ease-in-out;
+    }
+}
+
+.salut, .defensa, .velocitat {
+    padding: 0;
+    margin: -10px 0px;
+}
+
+.atac {
+    margin-bottom: -10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#resultat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid rgba(0, 61, 165, 0.9);
+    box-shadow: 0 0 15px rgb(0, 61, 165);
+    background-color: white;
+    padding: 10px 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 61, 165);
+    color: white;
+}
+
+#resum {
+    border: 2px solid rgb(0, 61, 165);
+    box-shadow: 0 0 15px rgb(0, 61, 165);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.eliminada {
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 61, 165);
+    margin: 15px;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.cartesEliminades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}

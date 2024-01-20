@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "nom": "Ladybug",
+      "atac": 90,
+      "defensa": 80,
+      "velocitat": 8,
+      "salut": 100,
+      "img": "img/ladybug.png"
+    },
+    {
+      "id": 2,
+      "nom": "Cat Noir",
+      "atac": 85,
+      "defensa": 85,
+      "velocitat": 10,
+      "salut": 100,
+      "img": "img/cat_noir.png"
+    },
+    {
+      "id": 3,
+      "nom": "Rena Rouge",
+      "atac": 75,
+      "defensa": 90,
+      "velocitat": 7,
+      "salut": 100,
+      "img": "img/rena_rouge.png"
+    },
+    {
+      "id": 4,
+      "nom": "Carapace",
+      "atac": 70,
+      "defensa": 95,
+      "velocitat": 6,
+      "salut": 100,
+      "img": "img/carapace.png"
+    },
+    {
+      "id": 5,
+      "nom": "Vesperia",
+      "atac": 75,
+      "defensa": 85,
+      "velocitat": 7,
+      "salut": 100,
+      "img": "img/vesperia.png"
+    },
+    {
+      "id": 6,
+      "nom": "Betterfly",
+      "atac": 85,
+      "defensa": 90,
+      "velocitat": 8,
+      "salut": 100,
+      "img": "img/betterfly.png"
+    },
+    {
+      "id": 7,
+      "nom": "Argos",
+      "atac": 80,
+      "defensa": 80,
+      "velocitat": 7,
+      "salut": 100,
+      "img": "img/argos.png"
+    },
+    {
+      "id": 8,
+      "nom": "Viperion",
+      "atac": 80,
+      "defensa": 90,
+      "velocitat": 8,
+      "salut": 100,
+      "img": "img/viperion.png"
+    },
+    {
+      "id": 9,
+      "nom": "Purple Tigress",
+      "atac": 95,
+      "defensa": 70,
+      "velocitat": 7,
+      "salut": 100,
+      "img": "img/purple_tigress.png"
+    },
+    {
+      "id": 10,
+      "nom": "Pegasus",
+      "atac": 80,
+      "defensa": 85,
+      "velocitat": 10,
+      "salut": 100,
+      "img": "img/pegasus.png"
+    }
+  ]  
