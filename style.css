@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
     height: 400px;
     margin: 0;
     padding: 0;
